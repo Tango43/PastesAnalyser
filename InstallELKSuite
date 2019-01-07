@@ -2,7 +2,7 @@
 sudo apt update
 sudo apt install openjdk-8-jre apt-transport-https wget nginx
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add
-cat "deb https://artifacts.elastic.co/packages/6.x/apt stable main" > /etc/apt/sources.list.d/elastic.list
+echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" > /etc/apt/sources.list.d/elastic.list
 cp kibana.yml /etc/kibana/kibana.yml
 sudo apt update
 sudo apt install elasticsearch kibana
@@ -11,7 +11,7 @@ cp nginx-kibana-config /etc/nginx/sites-available/kibana
 sudo rm /etc/nginx/sites-enabled/default
 sudo ln -s /etc/nginx/sites-available/kibana /etc/nginx/sites-enabled/kibana
 sudo systemctl restart nginx
-sudo apt install logstash
+#sudo apt install logstash
 #curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.5.4-amd64.deb
 #sudo dpkg -i filebeat-6.5.4-amd64.deb
 #TODO push filebeat config
