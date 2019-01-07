@@ -5,8 +5,8 @@ wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add
 echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" > /etc/apt/sources.list.d/elastic.list
 cp kibana.yml /etc/kibana/kibana.yml
 sudo apt update
-sudo apt install elasticsearch kibana
-echo "type the following to create password replace yourpassword with a password: echo 'admin:`openssl passwd -apr1 YourPassword`' | sudo tee -a /etc/nginx/htpasswd.kibana"
+sudo apt install elasticsearch kibanae
+echo 'admin:`openssl passwd -apr1 YourPassword`' | sudo tee -a /etc/nginx/htpasswd.kibana"
 cp nginx-kibana-config /etc/nginx/sites-available/kibana
 sudo rm /etc/nginx/sites-enabled/default
 sudo ln -s /etc/nginx/sites-available/kibana /etc/nginx/sites-enabled/kibana
