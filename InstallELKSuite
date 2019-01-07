@@ -2,7 +2,7 @@
 sudo apt update
 sudo apt install openjdk-8-jre apt-transport-https wget nginx
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add
-cat deb https://artifacts.elastic.co/packages/6.x/apt stable main > /etc/apt/sources.list.d/elastic.list
+cat "deb https://artifacts.elastic.co/packages/6.x/apt stable main" > /etc/apt/sources.list.d/elastic.list
 #TODO push kibana config
 sudo apt update
 sudo apt install elasticsearch kibana
