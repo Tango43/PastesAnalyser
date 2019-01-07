@@ -1,0 +1,2 @@
+Create zmq puller, which uses either CIRCL or other source like pystemon. If pystemon is used filebeat is required.
+Create automatic graphs with input keywords
