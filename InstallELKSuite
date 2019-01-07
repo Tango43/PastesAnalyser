@@ -12,6 +12,6 @@ sudo rm /etc/nginx/sites-enabled/default
 sudo ln -s /etc/nginx/sites-available/kibana /etc/nginx/sites-enabled/kibana
 sudo systemctl restart nginx
 sudo apt install logstash
-curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.5.4-amd64.deb
-sudo dpkg -i filebeat-6.5.4-amd64.deb
+#curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.5.4-amd64.deb
+#sudo dpkg -i filebeat-6.5.4-amd64.deb
 #TODO push filebeat config
