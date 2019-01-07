@@ -9,6 +9,9 @@ cp kibana.yml /etc/kibana/kibana.yml
 cp nginx-kibana-config /etc/nginx/sites-available/kibana
 sudo rm /etc/nginx/sites-enabled/default
 sudo ln -s /etc/nginx/sites-available/kibana /etc/nginx/sites-enabled/kibana
+sudo apt install logstash
+sudo systemctl restart logstash
 sudo systemctl restart nginx
 sudo systemctl restart kibana
-sudo systemctl start elasticsearch
+sudo systemctl restart elasticsearch
+
