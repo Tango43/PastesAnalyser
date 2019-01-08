@@ -1,6 +1,20 @@
 # PastesAnalyser
 Paste Analyser inspired by AIL-Framework.
 
-The idea is to just plug in pastes either from pystemon or the CIRCL feed and searching for keywords using the existing ELK Suite.
+# Feeding
+The idea is to feed pastes either from pystemon or the CIRCL feed and searching for keywords using the existing ELK Suite.
 
-You will have to customize the ELK dashboards visualisations to show the desired keywords. As provided a total count graph is given and a Windows keyword graph is given. Simply reuse the windows keywords graph and modify the keyword to get the desired keyword match.
+Pystemon can be found at https://github.com/cvandeplas/pystemon
+I however recommand trying to contact the CIRCL about getting access to their superior feed.
+
+
+# Visualisation
+You will have to customize the ELK dashboards visualisations to show the desired keywords. 
+
+As provided the following graphs are provied:
+- total count graph (used for count the amount of pastes (Making sure it runs))
+- Windows keyword graph (purpose is to change the keyword to the desired keywords)
+
+Simply reuse the windows keywords graph and modify the keyword to get the desired keyword match.
+
+Furthermore you can create the desired graphs as long as you have the source of data.
