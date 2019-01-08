@@ -21,6 +21,10 @@ Simply reuse the windows keywords graph and modify the keyword to get the desire
 Furthermore you can create the more advanced graphs on the existing data source. These graphs are just given as examples.
 
 Importing Template Dashboard Guide:
+
 Click in Management In Kibana
+
 Click on Saved Objects
+
 Use the import button to import the export.json file.
+
