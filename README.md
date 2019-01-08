@@ -12,7 +12,7 @@ I however recommend trying to contact the CIRCL about getting access to their su
 # Visualisation
 You will have to customize the ELK dashboards visualisations to show the desired keywords. 
 
-As provided the following graphs are provied:
+As provided the following graphs are given:
 - total count graph (used for count the amount of pastes (Making sure it runs))
 - Windows keyword graph (purpose is to change the keyword to the desired keywords)
 
