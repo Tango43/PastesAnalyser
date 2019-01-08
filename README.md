@@ -5,7 +5,8 @@ Paste Analyser inspired by AIL-Framework.
 The idea is to feed pastes either from pystemon or the CIRCL feed and searching for keywords using the existing ELK Suite.
 
 Pystemon can be found at https://github.com/cvandeplas/pystemon
-I however recommand trying to contact the CIRCL about getting access to their superior feed.
+
+I however recommend trying to contact the CIRCL about getting access to their superior feed. This is done over ZMQ, which logstash supports through an external app.
 
 
 # Visualisation
