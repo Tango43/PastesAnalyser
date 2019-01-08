@@ -18,4 +18,4 @@ As provided the following graphs are given:
 
 Simply reuse the windows keywords graph and modify the keyword to get the desired keyword match.
 
-Furthermore you can create the desired graphs as long as you have the source of data.
+Furthermore you can create the more advanced graphs on the existing data source. These graphs are just given as examples.
